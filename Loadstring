@@ -1,1 +1,22 @@
-lol
+local _,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z = "Hearts","ervice","etS","Pla","occa",">:",":<",",)",":D",">:D","The doct",">:)",":)",";",":/",":|",":(",":o",":O","3:)","O.o","^_^","u.u","x_x"
+local A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z = pcall,wait,game,math,Vector3,Enum,print,tonumber,tostring,ipairs,pairs,unpack,setmetatable,getrawmetatable,table,loadstring,string.gsub,string.char,string.rep,string.sub,string.find,string.format,string.reverse
+
+local d0 = C:GetService(b)[a].LocalPlayer
+local d1 = d0.Character or d0.CharacterAdded:Wait()
+local d2 = d1:WaitForChild("Humanoid")
+local d3 = C:GetService(b)
+
+local d4 = function()
+    local d5 = math.random(0, 1)
+    local d6 = E.new(math.random(-1, 1), 0, math.random(-1, 1))
+    local d7 = math.random(0, 10)
+    if d5 == 1 then
+        d2:ChangeState(Enum[H][I][J](h))
+        B(0.25)
+    end
+    d2:Move(d6 * d7 / 10)
+end
+
+d3[t][U][Y]:Connect(function()
+    d4()
+end)
